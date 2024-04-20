@@ -59,15 +59,7 @@ array <span class="pl-en">train</span>(<span class="pl-k">const</span> array &am
         <span class="pl-k">int</span> maxiter = <span class="pl-c1">1000</span>, <span class="pl-k">bool</span> verbose = <span class="pl-c1">false</span>) {
     array Weights = <span class="pl-c1">constant</span>(<span class="pl-c1">0</span>, X.<span class="pl-c1">dims</span>(<span class="pl-c1">1</span>), Y.<span class="pl-c1">dims</span>(<span class="pl-c1">1</span>));
 
-    <span class="pl-k">for</span> (<span class="pl-k">int</span> i = <span class="pl-c1">0</span>; i &lt; maxiter; i++) {
-        array P   = <span class="pl-c1">predict</span>(X, Weights);
-        array err = Y - P;
-        <span class="pl-k">if</span> (mean&lt;<span class="pl-k">float</span>&gt;(<span class="pl-c1">abs</span>(err) &lt; maxerr) <span class="pl-k">break</span>;
-        Weights += alpha * <span class="pl-c1">matmulTN</span>(X, err);
-    }
-    <span class="pl-k">return</span> Weights;
-}
-...
+
 
 array Weights = train(train_feats, train_targets);
 array test_outputs  = predict(test_feats, Weights);
