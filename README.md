@@ -1,60 +1,73 @@
-<p align="center"><a href="http://arrayfire.com/"><img src="http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png" width="800"></a></p>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto"><a href="http://arrayfire.com/" rel="nofollow"><img src="https://camo.githubusercontent.com/3372660eb4bb4e806e363e769aa223dce790e290d29eeaf17ff401a840188a94/687474703a2f2f6172726179666972652e636f6d2f6c6f676f732f6172726179666972655f6c6f676f5f7768697465626b676e642e706e67" width="800" data-canonical-src="http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ArrayFire 是一个通用张量库，可简化 CPU、GPU 和其他硬件加速设备中并行架构的软件开发过程。该库为每个技术计算市场的用户提供服务。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ArrayFire 的一些优点包括：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数百个加速</font></font><a href="https://arrayfire.org/docs/group__arrayfire__func.htm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">张量计算功能</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，涉及以下领域：
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数组处理</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">计算机视觉</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图像处理</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">线性代数</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">机器学习</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标准数学</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">信号处理</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">统计数据</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">矢量算法</font></font></li>
+</ul>
+</li>
+<li><a href="http://arrayfire.org/docs/gettingstarted.htm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">易于使用</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、稳定、
+</font></font><a href="http://arrayfire.org/docs" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档齐全的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">严格的基准和测试确保最佳性能和数值准确性</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跨平台兼容性，支持 Windows、Mac 和 Linux 上的 CUDA、oneAPI、OpenCL 和本机 CPU</font></font></li>
+<li><font style="vertical-align: inherit;"><a href="https://github.com/arrayfire/forge"><font style="vertical-align: inherit;">通过Forge</font></a><font style="vertical-align: inherit;">内置可视化功能
+</font></font><a href="https://github.com/arrayfire/forge"><font style="vertical-align: inherit;"></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">商业友好的开源许可</font></font></li>
+<li><font style="vertical-align: inherit;"><a href="http://arrayfire.com" rel="nofollow"><font style="vertical-align: inherit;">ArrayFire</font></a><font style="vertical-align: inherit;">的企业支持</font></font><a href="http://arrayfire.com" rel="nofollow"><font style="vertical-align: inherit;"></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ArrayFire 为软件开发人员提供驻留在加速器（即对象）上的数据的高级抽象</font></font><code>af::array</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。开发人员编写对 ArrayFire 数组执行操作的代码，这些代码又会自动转换为在计算设备上执行的近乎最佳的内核。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ArrayFire 可以在从低功耗移动电话到支持 GPU 的高功率超级计算机等设备上运行。 ArrayFire 可在所有主要供应商（Intel、AMD、ARM）的 CPU、知名制造商（AMD、Intel、NVIDIA 和 Qualcomm）的 GPU 以及 Windows、Mac 和 Linux 上的各种其他加速器设备上运行。</font></font></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取ArrayFire</font></font></h1><a id="user-content-getting-arrayfire" class="anchor" aria-label="永久链接：获取 ArrayFire" href="#getting-arrayfire"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://github.com/arrayfire/arrayfire/wiki/Getting-ArrayFire"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从源代码安装</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或构建 ArrayFire 的</font><font style="vertical-align: inherit;">说明可以在</font></font><a href="https://github.com/arrayfire/arrayfire/wiki"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wiki</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上找到。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 ArrayFire 进行康威的生命游戏</font></font></h3><a id="user-content-conways-game-of-life-using-arrayfire" class="anchor" aria-label="永久链接：Conway 使用 ArrayFire 进行生命游戏" href="#conways-game-of-life-using-arrayfire"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请访问</font></font><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">维基百科页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，了解康威生命游戏的描述。</font></font></p>
+<p dir="auto"><animated-image data-catalyst="" style="float: left; width: 256px;"><a target="_blank" rel="noopener noreferrer" href="https://github.com/arrayfire/assets/blob/master/gifs/conway.gif" data-target="animated-image.originalLink"><img align="left" src="https://github.com/arrayfire/assets/raw/master/gifs/conway.gif" alt="康威的生命游戏" height="256" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
+      <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
+        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://github.com/arrayfire/assets/blob/master/gifs/conway.gif" target="_blank">
+          
+        <span data-target="animated-image.imageContainer">
+            <img data-target="animated-image.replacedImage" alt="Conway's Game of Life" class="AnimatedImagePlayer-animatedImage" src="https://github.com/arrayfire/assets/raw/master/gifs/conway.gif" height="256" style="display: block; opacity: 1;">
+          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="256" height="256"></canvas></span></a>
+        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play Conway's Game of Life" hidden=""></button>
+        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
+          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play Conway's Game of Life">
+            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
+            </path></svg>
+            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
+              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
+            </svg>
+          </button>
+          <a data-target="animated-image.openButton" aria-label="Open Conway's Game of Life in new window" class="AnimatedImagePlayer-button" href="https://github.com/arrayfire/assets/blob/master/gifs/conway.gif" target="_blank">
+            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
+            </svg>
+          </a>
+        </span>
+      </span></animated-image></p>
+<div class="highlight highlight-source-c++ notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">static</span> <span class="pl-k">const</span> <span class="pl-k">float</span> h_kernel[] = { <span class="pl-c1">1</span>, <span class="pl-c1">1</span>, <span class="pl-c1">1</span>, <span class="pl-c1">1</span>, <span class="pl-c1">0</span>, <span class="pl-c1">1</span>, <span class="pl-c1">1</span>, <span class="pl-c1">1</span>, <span class="pl-c1">1</span> };
+<span class="pl-k">static</span> <span class="pl-k">const</span> array <span class="pl-en">kernel</span>(<span class="pl-c1">3</span>, <span class="pl-c1">3</span>, h_kernel, afHost);
 
-ArrayFire is a general-purpose tensor library that simplifies the software
-development process for the parallel architectures found in CPUs, GPUs, and
-other hardware acceleration devices. The library serves users in every
-technical computing market.
-
-Several of ArrayFire's benefits include:
-
-* Hundreds of accelerated [tensor computing
-  functions](https://arrayfire.org/docs/group__arrayfire__func.htm), in the
-  following areas:
-    * Array handling
-    * Computer vision
-    * Image processing
-    * Linear algebra
-    * Machine learning
-    * Standard math
-    * Signal Processing
-    * Statistics
-    * Vector algorithms
-* [Easy to use](http://arrayfire.org/docs/gettingstarted.htm), stable,
-  [well-documented](http://arrayfire.org/docs) API
-* Rigorous benchmarks and tests ensuring top performance and numerical accuracy
-* Cross-platform compatibility with support for CUDA, oneAPI, OpenCL, and
-  native CPU on Windows, Mac, and Linux
-* Built-in visualization functions through
-  [Forge](https://github.com/arrayfire/forge)
-* Commercially friendly open-source licensing
-* Enterprise support from [ArrayFire](http://arrayfire.com)
-
-ArrayFire provides software developers with a high-level abstraction of data
-that resides on the accelerator, the `af::array` object. Developers write code
-that performs operations on ArrayFire arrays, which, in turn, are automatically
-translated into near-optimal kernels that execute on the computational device.
-
-ArrayFire runs on devices ranging from low-power mobile phones to high-power
-GPU-enabled supercomputers. ArrayFire runs on CPUs from all major vendors
-(Intel, AMD, ARM), GPUs from the prominent manufacturers (AMD, Intel, NVIDIA,
-and Qualcomm), as well as a variety of other accelerator devices on Windows,
-Mac, and Linux.
-
-# Getting ArrayFire
-
-Instructions to [install][32] or to build ArrayFire from source can be found on
-the [wiki][1].
-
-### Conway's Game of Life Using ArrayFire
-
-Visit the [Wikipedia page][2] for a description of Conway's Game of Life.
-
-<img align="left"
-src="https://github.com/arrayfire/assets/blob/master/gifs/conway.gif"
-alt="Conway's Game of Life" height="256" width="256">
-
-```cpp
-static const float h_kernel[] = { 1, 1, 1, 1, 0, 1, 1, 1, 1 };
+array state = (randu(<span class="pl-c1">128</span>, <span class="pl-c1">128</span>, f32) &gt; <span class="pl-c1">0.5</span>).as(f32); <span class="pl-c"><span class="pl-c">//</span> Init state</span>
+Window <span class="pl-en">myWindow</span>(<span class="pl-c1">256</span>, <span class="pl-c1">256</span>);
+<span class="pl-k">while</span>(!myWindow.close()) {
+    array nHood = <span class="pl-c1">convolve</span>(state, kernel); <span class="pl-c"><span class="pl-c">//</span> Obtain neighbors</span>
+    array C0 = (nHood == <span class="pl-c1">2</span>);  <span class="pl-c"><span class="pl-c">//</span> Generate conditions for life</span>
+    array C1 = (nHood == <span class="pl-c1">3</span>);
+    state = state * C0 + C1;  <span class="pl-c"><span class="pl-c">//</span> Update state</span>
+    myWindow.<span class="pl-c1">image</span>(state);    <span class="pl-c"><span class="pl-c">//</span> Display</span>
+}</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="static const float h_kernel[] = { 1, 1, 1, 1, 0, 1, 1, 1, 1 };
 static const array kernel(3, 3, h_kernel, afHost);
 
 array state = (randu(128, 128, f32) > 0.5).as(f32); // Init state
@@ -65,22 +78,70 @@ while(!myWindow.close()) {
     array C1 = (nHood == 3);
     state = state * C0 + C1;  // Update state
     myWindow.image(state);    // Display
+}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完整的源代码可以</font></font><a href="https://github.com/arrayfire/arrayfire/blob/master/examples/graphics/conway_pretty.cpp"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感知器</font></font></h3><a id="user-content-perceptron" class="anchor" aria-label="永久链接：感知器" href="#perceptron"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><animated-image data-catalyst="" style="float: left; width: 300px;"><a target="_blank" rel="noopener noreferrer" href="https://github.com/arrayfire/assets/blob/imgs_readme_improv/gifs/perceptron.gif" data-target="animated-image.originalLink"><img align="left" src="https://github.com/arrayfire/assets/raw/imgs_readme_improv/gifs/perceptron.gif" alt="感知器" height="400" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
+      <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
+        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://github.com/arrayfire/assets/blob/imgs_readme_improv/gifs/perceptron.gif" target="_blank">
+          
+        <span data-target="animated-image.imageContainer">
+            <img data-target="animated-image.replacedImage" alt="Perceptron" class="AnimatedImagePlayer-animatedImage" src="https://github.com/arrayfire/assets/raw/imgs_readme_improv/gifs/perceptron.gif" height="400" style="display: block; opacity: 1;">
+          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="300" height="400"></canvas></span></a>
+        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play Perceptron" hidden=""></button>
+        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
+          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play Perceptron">
+            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
+            </path></svg>
+            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
+              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
+            </svg>
+          </button>
+          <a data-target="animated-image.openButton" aria-label="Open Perceptron in new window" class="AnimatedImagePlayer-button" href="https://github.com/arrayfire/assets/blob/imgs_readme_improv/gifs/perceptron.gif" target="_blank">
+            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
+            </svg>
+          </a>
+        </span>
+      </span></animated-image></p>
+<div class="highlight highlight-source-c++ notranslate position-relative overflow-auto" dir="auto"><pre>array <span class="pl-en">predict</span>(<span class="pl-k">const</span> array &amp;X, <span class="pl-k">const</span> array &amp;W) {
+    <span class="pl-k">return</span> <span class="pl-c1">sigmoid</span>(<span class="pl-c1">matmul</span>(X, W));
 }
-```
-The complete source code can be found [here][3].
 
-### Perceptron
+array <span class="pl-en">train</span>(<span class="pl-k">const</span> array &amp;X, <span class="pl-k">const</span> array &amp;Y,
+        <span class="pl-k">double</span> alpha = <span class="pl-c1">0.1</span>, <span class="pl-k">double</span> maxerr = <span class="pl-c1">0.05</span>,
+        <span class="pl-k">int</span> maxiter = <span class="pl-c1">1000</span>, <span class="pl-k">bool</span> verbose = <span class="pl-c1">false</span>) {
+    array Weights = <span class="pl-c1">constant</span>(<span class="pl-c1">0</span>, X.<span class="pl-c1">dims</span>(<span class="pl-c1">1</span>), Y.<span class="pl-c1">dims</span>(<span class="pl-c1">1</span>));
 
-<img align="left"
-src="https://github.com/arrayfire/assets/blob/imgs_readme_improv/gifs/perceptron.gif"
-alt="Perceptron" height="400" width="300">
+    <span class="pl-k">for</span> (<span class="pl-k">int</span> i = <span class="pl-c1">0</span>; i &lt; maxiter; i++) {
+        array P   = <span class="pl-c1">predict</span>(X, Weights);
+        array err = Y - P;
+        <span class="pl-k">if</span> (mean&lt;<span class="pl-k">float</span>&gt;(<span class="pl-c1">abs</span>(err) &lt; maxerr) <span class="pl-k">break</span>;
+        Weights += alpha * <span class="pl-c1">matmulTN</span>(X, err);
+    }
+    <span class="pl-k">return</span> Weights;
+}
+...
 
-```cpp
-array predict(const array &X, const array &W) {
+array Weights = train(train_feats, train_targets);
+array test_outputs  = predict(test_feats, Weights);
+display_results&lt;<span class="pl-c1">true</span>&gt;(test_images, test_outputs,
+                      test_targets, <span class="pl-c1">20</span>);</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="array predict(const array &amp;X, const array &amp;W) {
     return sigmoid(matmul(X, W));
 }
 
-array train(const array &X, const array &Y,
+array train(const array &amp;X, const array &amp;Y,
         double alpha = 0.1, double maxerr = 0.05,
         int maxiter = 1000, bool verbose = false) {
     array Weights = constant(0, X.dims(1), Y.dims(1));
@@ -98,108 +159,49 @@ array train(const array &X, const array &Y,
 array Weights = train(train_feats, train_targets);
 array test_outputs  = predict(test_feats, Weights);
 display_results<true>(test_images, test_outputs,
-                      test_targets, 20);
-```
-
-The complete source code can be found [here][31].
-
-For more code examples, visit the [`examples/`][4] directory.
-
-# Documentation
-
-You can find the complete documentation [here](http://www.arrayfire.com/docs/index.htm).
-
-Quick links:
-
-* [List of functions](http://www.arrayfire.org/docs/group__arrayfire__func.htm)
-* [Tutorials](http://arrayfire.org/docs/tutorials.htm)
-* [Examples](http://www.arrayfire.org/docs/examples.htm)
-* [Blog](http://arrayfire.com/blog/)
-
-# Language support
-
-ArrayFire has several official and community maintained language API's:
-
-[![C++][5]][6] [![Python][7]][8] [![Rust][9]][10] [![Julia][27]][28]<sub><span>&#8224;</span></sub>
-[![Nim][29]][30]<sub><span>&#8224;</span></sub>
-
-<sup><span>&#8224;</span></sup>&nbsp; Community maintained wrappers
-
-__In-Progress Wrappers__
-
-[![.NET][11]][12] [![Fortran][13]][14] [![Go][15]][16]
-[![Java][17]][18] [![Lua][19]][20] [![NodeJS][21]][22] [![R][23]][24] [![Ruby][25]][26]
-
-# Contributing
-
-The community of ArrayFire developers invites you to build with us if you are
-interested and able to write top-performing tensor functions. Together we can
-fulfill [The ArrayFire
-Mission](https://github.com/arrayfire/arrayfire/wiki/The-ArrayFire-Mission-Statement)
-for fast scientific computing for all.
-
-Contributions of any kind are welcome! Please refer to [the
-wiki](https://github.com/arrayfire/arrayfire/wiki) and our [Code of
-Conduct](33) to learn more about how you can get involved with the ArrayFire
-Community through
-[Sponsorship](https://github.com/arrayfire/arrayfire/wiki/Sponsorship),
-[Developer
-Commits](https://github.com/arrayfire/arrayfire/wiki/Contributing-Code-to-ArrayFire),
-or [Governance](https://github.com/arrayfire/arrayfire/wiki/Governance).
-
-# Citations and Acknowledgements
-
-If you redistribute ArrayFire, please follow the terms established in [the
-license](LICENSE). If you wish to cite ArrayFire in an academic publication,
-please use the following [citation document](.github/CITATION.md).
-
-ArrayFire development is funded by AccelerEyes LLC and several third parties,
-please see the list of [acknowledgements](ACKNOWLEDGEMENTS.md) for an
-expression of our gratitude.
-
-# Support and Contact Info
-
-* [Slack Chat](https://join.slack.com/t/arrayfire-org/shared_invite/MjI4MjIzMDMzMTczLTE1MDI5ODg4NzYtN2QwNGE3ODA5OQ)
-* [Google Groups](https://groups.google.com/forum/#!forum/arrayfire-users)
-* ArrayFire Services:  [Consulting](http://arrayfire.com/consulting)  |  [Support](http://arrayfire.com/download)   |  [Training](http://arrayfire.com/training)
-
-# Trademark Policy
-
-The literal mark "ArrayFire" and ArrayFire logos are trademarks of AccelerEyes
-LLC (dba ArrayFire). If you wish to use either of these marks in your own
-project, please consult [ArrayFire's Trademark
-Policy](http://arrayfire.com/trademark-policy/)
-
-[1]: https://github.com/arrayfire/arrayfire/wiki
-[2]: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
-[3]: https://github.com/arrayfire/arrayfire/blob/master/examples/graphics/conway_pretty.cpp
-[4]: https://github.com/arrayfire/arrayfire/blob/master/examples/
-[5]: https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white
-[6]: http://arrayfire.org/docs/gettingstarted.htm#gettingstarted_api_usage
-[7]: https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white
-[8]: https://github.com/arrayfire/arrayfire-python
-[9]: https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white
-[10]: https://github.com/arrayfire/arrayfire-rust
-[11]: https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white
-[12]: https://github.com/arrayfire/arrayfire-dotnet
-[13]: https://img.shields.io/badge/F-Fortran-734f96?style=for-the-badge
-[14]: https://github.com/arrayfire/arrayfire-fortran
-[15]: https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white
-[16]: https://github.com/arrayfire/arrayfire-go
-[17]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white
-[18]: https://github.com/arrayfire/arrayfire-java
-[19]: https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white
-[20]: https://github.com/arrayfire/arrayfire-lua
-[21]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
-[22]: https://github.com/arrayfire/arrayfire-js
-[23]: https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white
-[24]: https://github.com/arrayfire/arrayfire-r
-[25]: https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white
-[26]: https://github.com/arrayfire/arrayfire-rb
-[27]: https://img.shields.io/badge/j-Julia-cb3c33?style=for-the-badge&labelColor=4063d8
-[28]: https://github.com/JuliaComputing/ArrayFire.jl
-[29]: https://img.shields.io/badge/n-Nim-000000?style=for-the-badge&labelColor=efc743
-[30]: https://github.com/bitstormGER/ArrayFire-Nim
-[31]: https://github.com/arrayfire/arrayfire/blob/master/examples/machine_learning/perceptron.cpp
-[32]: https://github.com/arrayfire/arrayfire/wiki/Getting-ArrayFire
-[33]: https://github.com/arrayfire/arrayfire/wiki/Code-Of-Conduct
+                      test_targets, 20);" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完整的源代码可以</font></font><a href="https://github.com/arrayfire/arrayfire/blob/master/examples/machine_learning/perceptron.cpp"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多代码示例，请访问</font></font><a href="https://github.com/arrayfire/arrayfire/blob/master/examples/"><code>examples/</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录。</font></font></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h1><a id="user-content-documentation" class="anchor" aria-label="永久链接：文档" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="http://www.arrayfire.com/docs/index.htm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到完整的文档</font><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速链接：</font></font></p>
+<ul dir="auto">
+<li><a href="http://www.arrayfire.org/docs/group__arrayfire__func.htm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能一览</font></font></a></li>
+<li><a href="http://arrayfire.org/docs/tutorials.htm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教程</font></font></a></li>
+<li><a href="http://www.arrayfire.org/docs/examples.htm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例子</font></font></a></li>
+<li><a href="http://arrayfire.com/blog/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语言支持</font></font></h1><a id="user-content-language-support" class="anchor" aria-label="永久链接：语言支持" href="#language-support"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ArrayFire 有几个官方和社区维护的语言 API：</font></font></p>
+<p dir="auto"><a href="http://arrayfire.org/docs/gettingstarted.htm#gettingstarted_api_usage" rel="nofollow"><img src="https://camo.githubusercontent.com/69ab3d5d4f1a013fb242d8ab82efc118146fcb72791937a0495f05c829d0f9b2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f632b2b2d2532333030353939432e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d63253242253242266c6f676f436f6c6f723d7768697465" alt="C++" data-canonical-src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&amp;logo=c%2B%2B&amp;logoColor=white" style="max-width: 100%;"></a> <a href="https://github.com/arrayfire/arrayfire-python"><img src="https://camo.githubusercontent.com/4b541f9aa5e13d134b5f38aa12b38df383aa561c861b6934b154f7bc705b91a8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2d2532333134333534432e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465" alt="Python" data-canonical-src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&amp;logo=python&amp;logoColor=white" style="max-width: 100%;"></a> <a href="https://github.com/arrayfire/arrayfire-rust"><img src="https://camo.githubusercontent.com/8e31ce4df532515ac9a1c0418c03b7793471ff9e282dfc28e6473b65334fbac9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f727573742d2532333030303030302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d72757374266c6f676f436f6c6f723d7768697465" alt="锈" data-canonical-src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&amp;logo=rust&amp;logoColor=white" style="max-width: 100%;"></a> <a href="https://github.com/JuliaComputing/ArrayFire.jl"><img src="https://camo.githubusercontent.com/71557b8f95d44dc0e367cdaf95cdc3eb821838ee0e6de51b0adee5ec78d19dbc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a2d4a756c69612d6362336333333f7374796c653d666f722d7468652d6261646765266c6162656c436f6c6f723d343036336438" alt="朱莉娅" data-canonical-src="https://img.shields.io/badge/j-Julia-cb3c33?style=for-the-badge&amp;labelColor=4063d8" style="max-width: 100%;"></a><sub><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">† </font></font></span></sub>
+<font style="vertical-align: inherit;"><sub><span><font style="vertical-align: inherit;">†</font></span></sub></font><a href="https://github.com/bitstormGER/ArrayFire-Nim"><img src="https://camo.githubusercontent.com/f4bafc0bab9e8d16687f8d54be54e3636dda4cf4135da0860468ddb53cc34e26/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6e2d4e696d2d3030303030303f7374796c653d666f722d7468652d6261646765266c6162656c436f6c6f723d656663373433" alt="尼姆" data-canonical-src="https://img.shields.io/badge/n-Nim-000000?style=for-the-badge&amp;labelColor=efc743" style="max-width: 100%;"></a><sub><span><font style="vertical-align: inherit;"></font></span></sub></p>
+<p dir="auto"><sup><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">†</font></font></span></sup><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp; 社区维护的包装器</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正在进行的包装</font></font></strong></p>
+<p dir="auto"><a href="https://github.com/arrayfire/arrayfire-dotnet"><img src="https://camo.githubusercontent.com/cf1a49b0e15f9c42fc747bf4b105afc42bfd53d27b566a6d32dbc177fedb4af8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2e4e45542d3543324439313f7374796c653d666f722d7468652d6261646765266c6f676f3d2e6e6574266c6f676f436f6c6f723d7768697465" alt="。网" data-canonical-src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&amp;logo=.net&amp;logoColor=white" style="max-width: 100%;"></a> <a href="https://github.com/arrayfire/arrayfire-fortran"><img src="https://camo.githubusercontent.com/241f85682f2783e26da895684e2804f5e8950034c27f4a0564e3e6ea68ff31ed/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f462d466f727472616e2d3733346639363f7374796c653d666f722d7468652d6261646765" alt="福特兰语言" data-canonical-src="https://img.shields.io/badge/F-Fortran-734f96?style=for-the-badge" style="max-width: 100%;"></a> <a href="https://github.com/arrayfire/arrayfire-go"><img src="https://camo.githubusercontent.com/33cfae3047a121e7811c7a54e7b6ef4029c9db941f3d180a176069220c878954/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f676f2d2532333030414444382e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d676f266c6f676f436f6c6f723d7768697465" alt="去" data-canonical-src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&amp;logo=go&amp;logoColor=white" style="max-width: 100%;"></a>
+<a href="https://github.com/arrayfire/arrayfire-java"><img src="https://camo.githubusercontent.com/26e74d6ef4bb4726fc8f8a6b3d4136376d691ecf85c8d3b464bfbf4259e5698d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176612d2532334544384230302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661266c6f676f436f6c6f723d7768697465" alt="爪哇" data-canonical-src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&amp;logo=java&amp;logoColor=white" style="max-width: 100%;"></a> <a href="https://github.com/arrayfire/arrayfire-lua"><img src="https://camo.githubusercontent.com/138ad1839f0327110a8878ff6299c893978ff2b0e044a7ea29f504ac434bc22f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c75612d2532333243324437322e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6c7561266c6f676f436f6c6f723d7768697465" alt="卢阿" data-canonical-src="https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&amp;logo=lua&amp;logoColor=white" style="max-width: 100%;"></a> <a href="https://github.com/arrayfire/arrayfire-js"><img src="https://camo.githubusercontent.com/53ec2e58e03ba275d9b3a386abd96a243cf744a1a7121bdf8262fc8ae6ebc335/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d2532333332333333302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145" alt="NodeJS" data-canonical-src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&amp;logo=javascript&amp;logoColor=%23F7DF1E" style="max-width: 100%;"></a> <a href="https://github.com/arrayfire/arrayfire-r"><img src="https://camo.githubusercontent.com/b66f76d657fe662500977c6730941ccff0c0cec4bb8564db9a28e70b4887b627/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f722d2532333237364443332e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d72266c6f676f436f6c6f723d7768697465" alt="右" data-canonical-src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&amp;logo=r&amp;logoColor=white" style="max-width: 100%;"></a> <a href="https://github.com/arrayfire/arrayfire-rb"><img src="https://camo.githubusercontent.com/b8e4eede660bd84251c8fa9337f7428610a3638a9ada9ca87bbfdc7c4ed82694/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f727562792d2532334343333432442e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d72756279266c6f676f436f6c6f723d7768697465" alt="红宝石" data-canonical-src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&amp;logo=ruby&amp;logoColor=white" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h1><a id="user-content-contributing" class="anchor" aria-label="永久链接：贡献" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有兴趣并且能够编写性能最佳的张量函数，ArrayFire 开发人员社区邀请您与我们一起构建。我们可以共同完成</font></font><a href="https://github.com/arrayfire/arrayfire/wiki/The-ArrayFire-Mission-Statement"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ArrayFire 使命</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+，为所有人提供快速科学计算。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">欢迎任何形式的贡献！请参阅</font></font><a href="https://github.com/arrayfire/arrayfire/wiki"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wiki</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和我们的</font></font><a href="/arrayfire/arrayfire/blob/master/33"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">行为准则，详细了解如何通过</font></font></a><font style="vertical-align: inherit;"></font><a href="https://github.com/arrayfire/arrayfire/wiki/Sponsorship"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">赞助</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+</font></font><a href="https://github.com/arrayfire/arrayfire/wiki/Contributing-Code-to-ArrayFire"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发者承诺</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="https://github.com/arrayfire/arrayfire/wiki/Governance"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">治理</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参与 ArrayFire 社区
+</font><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引文和致谢</font></font></h1><a id="user-content-citations-and-acknowledgements" class="anchor" aria-label="永久链接：引用和致谢" href="#citations-and-acknowledgements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="/arrayfire/arrayfire/blob/master/LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您重新分发 ArrayFire，请遵循许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中规定的条款</font><font style="vertical-align: inherit;">。如果您希望在学术出版物中引用 ArrayFire，请使用以下</font></font><a href="/arrayfire/arrayfire/blob/master/.github/CITATION.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引用文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="/arrayfire/arrayfire/blob/master/ACKNOWLEDGEMENTS.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ArrayFire 开发由 AccelerEyes LLC 和多个第三方资助，请参阅致谢</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">列表</font><font style="vertical-align: inherit;">以表达我们的谢意。</font></font></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持和联系信息</font></font></h1><a id="user-content-support-and-contact-info" class="anchor" aria-label="永久链接：支持和联系信息" href="#support-and-contact-info"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://join.slack.com/t/arrayfire-org/shared_invite/MjI4MjIzMDMzMTczLTE1MDI5ODg4NzYtN2QwNGE3ODA5OQ" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">松弛聊天</font></font></a></li>
+<li><a href="https://groups.google.com/forum/#!forum/arrayfire-users" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谷歌网上论坛</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ArrayFire 服务：  </font></font><a href="http://arrayfire.com/consulting" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">咨询</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  |  </font></font><a href="http://arrayfire.com/download" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">   |  </font></font><a href="http://arrayfire.com/training" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">训练</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">商标政策</font></font></h1><a id="user-content-trademark-policy" class="anchor" aria-label="永久链接：商标政策" href="#trademark-policy"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文字标记“ArrayFire”和 ArrayFire 徽标是 AccelerEyes LLC (dba ArrayFire) 的商标。如果您希望在自己的项目中使用这些标记中的任何一个，请参阅</font></font><a href="http://arrayfire.com/trademark-policy/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ArrayFire 的商标政策</font></font></a></p>
+</article></div>
